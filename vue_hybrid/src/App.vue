@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Hybrid></Hybrid>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Hybrid from "@/components/Hybrid";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Hybrid
   }
 }
 </script>
